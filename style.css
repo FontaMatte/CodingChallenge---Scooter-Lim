@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+}
+/* Sfondo della pagina */
+body{
+  background-image: url("background.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ /* Box trasparente */
+.transparentbox {
+  height: 700px;
+  width: 1000px;
+  background-color: rgba(0,0,0,0.6);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 3%;
+}
+ /* Box che contiene l'intero contenuto della pagina */
+.contenuto{
+  width: 800px;
+  height: 800px;
+  margin: auto;
+
+}
+ /* Logo della pagina */
+.logo{
+  height: 30%;
+  width: 30%;
+  padding-top: 70px;
+  display: block;
+  margin: auto;
+}
+/* Titolo della pagina */
+.PageTitle{
+  text-align: center;
+  color: rgba(0,221,0,255);
+  margin-bottom: 10px;
+}
+/* Menu di navigazione */
+.MenuDiNavigazione{
+  text-align: center;
+  background-color: rgba(0,221,0,255);
+  padding: 5px 5px;
+  margin-bottom: 20px;
+}
+
+.mono1,.mono2,.mono3{
+  margin-top: 30px;
+}
+
+/* Testo info monopattino */
+.InfoUtente{
+  display: inline-block;
+  color: white;
+}
+/* Testo info monopattino */
+.InfoMono{
+  display: block;
+  color: grey;
+}
+
+
+/* Barre indicazione stato carica */
+.Carica1{
+  width: 300px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.Carica2{
+  width: 400px;
+  height: 20px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.Carica3{
+  width: 150px;
+  height: 20px;
+  background-color: red;
+  border-radius: 5px;
+}
